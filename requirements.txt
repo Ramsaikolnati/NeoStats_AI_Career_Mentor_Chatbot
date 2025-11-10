@@ -1,0 +1,22 @@
+# --- Core UI ---
+streamlit
+
+# --- LangChain LLM connectors ---
+langchain-core
+langchain-openai
+langchain-groq
+langchain-google-genai
+
+# --- RAG / Embeddings / Vector DB ---
+faiss-cpu
+numpy
+
+# --- Config / Env management ---
+python-dotenv
+
+# --- HTTP / Web Search ---
+requests
+urllib3
+
+# --- Utilities ---
+tqdm

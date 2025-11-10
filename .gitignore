@@ -1,0 +1,47 @@
+# --- Python cache / build ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+
+# --- Environment / venv ---
+.env
+.env.*
+venv/
+.venv/
+ENV/
+env/
+Scripts/
+Lib/
+Include/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Streamlit / FAISS / local data ---
+faiss_index.bin
+*.bin
+*.meta
+kb/
+!kb/*.md
+!kb/*.txt
+streamlit.log
+.streamlit/
+
+# --- VS Code / PyCharm / IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Notebooks / backups (optional) ---
+*.ipynb_checkpoints
